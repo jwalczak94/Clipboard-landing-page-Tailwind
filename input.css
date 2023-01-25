@@ -35,14 +35,19 @@ h3 {
 
 p {
   line-height: 1.875rem;
+  font-weight: 400;
+}
+
+.links {
+  @apply text-darkGrayishBlue text-lg hover:text-strongCyan duration-300;
 }
 
 .description-container {
-  @apply max-w-[730px] mx-auto text-center;
+  @apply max-w-[45.625rem] mx-auto text-center;
 }
 
 .main-container {
-  @apply mx-auto text-center px-8 mb-36 md:mb-[150px];
+  @apply mx-auto text-center px-8 mb-36 md:mb-[9.375rem];
 }
 
 .btn {

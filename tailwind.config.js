@@ -27,21 +27,18 @@ module.exports = {
           "clamp(1rem, 0.9120rem + 0.3756vw, 1.25rem)",
           {
             letterSpacing: "0.14px",
-            fontWeight: "400",
           },
         ],
         sm: [
           "clamp(1rem, 0.9560rem + 0.1878vw, 1.125rem)",
           {
             letterSpacing: "0.12px",
-            fontWeight: "400",
           },
         ],
         xs: [
           "1rem",
           {
             letterSpacing: "0.12px",
-            fontWeight: "400",
           },
         ],
       },
