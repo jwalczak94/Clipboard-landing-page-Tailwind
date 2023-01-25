@@ -17,7 +17,8 @@ body {
 h1,
 h2,
 h3 {
-  @apply text-darkGrayishBlue mb-4 font-semibold letterSpacing:-0.015em;
+  @apply text-darkGrayishBlue mb-4 font-semibold;
+  letter-spacing: -0.015em;
   line-height: 1.25;
 }
 
