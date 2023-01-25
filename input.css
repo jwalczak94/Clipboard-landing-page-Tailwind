@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 576px) {
+  body {
+    background-image: url("../images/bg-header-mobile.png");
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  font-size: clamp(2rem, 1.6919rem + 1.3146vw, 2.875rem);
+}
+
+h2 {
+  font-size: clamp(1.75rem, 1.5739rem + 0.7512vw, 2.25rem);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h2,
+h3 {
+  @apply text-darkGrayishBlue mb-4;
+}
+
+p {
+  line-height: 1.875rem;
+}
+
+.description-container {
+  @apply max-w-[730px] mx-auto text-center;
+}
+
+.main-container {
+  @apply mx-auto text-center px-8 mb-36 md:mb-[150px];
+}
+
+.btn {
+  @apply py-[13px] rounded-full duration-200 hover:opacity-80 cursor-pointer w-[227px];
+}
+
+.btn-container {
+  @apply flex flex-col md:flex-row justify-center items-center w-full gap-6 md:gap-4 text-white text-lg tracking-wide font-semibold leading-[30px];
+}
